@@ -1,0 +1,8 @@
+* text=auto
+*.c text eol=lf
+*.h text eol=lf
+*.md text eol=lf
+*.ioc text eol=lf
+*.uvprojx text eol=crlf
+*.s text eol=lf
+*.S text eol=lf

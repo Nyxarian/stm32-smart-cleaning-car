@@ -1,0 +1,51 @@
+# Local DSH tools and generated interview material
+/.dsh-tools/
+/工作/
+
+# IDE and user-specific files
+**/.vscode/
+**/.eide/
+**/.settings/
+**/*.code-workspace
+**/*.uvguix.*
+**/*.uvoptx
+**/*.fool
+**/*.user
+
+# Generated dependency packs and build outputs
+**/MDK-ARM/.cmsis/
+**/MDK-ARM/build/
+**/MDK-ARM/bin/
+**/MDK-ARM/obj/
+**/MDK-ARM/out/
+**/MDK-ARM/Flight/
+**/MDK-ARM/DebugConfig/
+**/MDK-ARM/RTE/
+
+# Keil and compiler output
+**/*.axf
+**/*.bin
+**/*.hex
+**/*.elf
+**/*.o
+**/*.obj
+**/*.d
+**/*.dep
+**/*.crf
+**/*.lnp
+**/*.map
+**/*.lst
+**/*.htm
+**/*.html
+**/*.scvd
+**/*.bak
+
+# Experimental/stale local test scaffolding
+**/MDK-ARM/tests/
+
+# Local interview notes, not firmware documentation
+**/application/Interview_QA.md
+
+# OS files
+Thumbs.db
+.DS_Store
