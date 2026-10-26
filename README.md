@@ -2,6 +2,14 @@
 
 基于双 STM32F103C8T6 和 FreeRTOS 的智能清扫车控制系统。项目由主控板与采集从板组成，通过 CAN 总线交换轮速、电量和状态信息，支持蓝牙手动控制、超声波避障、轨迹录制与回放、弓字形覆盖清扫及里程计返航。
 
+## 硬件与演示资料
+
+- [电路原理图 PDF](docs/hardware/cleaning-car-schematic.pdf)
+- [电路原理图源文件](docs/hardware/cleaning-car-schematic.epro2)
+- 实物演示视频和手机蓝牙 APP：见本仓库的 [Releases](https://github.com/Nyxarian/stm32-smart-cleaning-car/releases)
+
+视频和 APK 作为 Release 附件提供，源码仓库保持轻量，便于克隆和阅读。
+
 > 本仓库来自毕业设计样机，重点展示嵌入式系统拆分、外设驱动、实时任务调度、通信协议与运动控制实践。它是教学/原型项目，不是量产清洁机器人固件。
 
 ## 系统架构
